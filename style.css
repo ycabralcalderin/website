@@ -137,3 +137,15 @@ nav a:hover {
 .contact-card a:hover {
   text-decoration: underline;
 }
+.icon {
+  width: 22px;
+  height: 22px;
+  color: #111;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
