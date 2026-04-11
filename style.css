@@ -107,3 +107,33 @@ nav a:hover {
 #contact a:hover {
   border-bottom: 1px solid #111;
 }
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-card {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: #111;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
