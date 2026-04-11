@@ -88,3 +88,22 @@ h1 {
 .more {
   margin-top: 20px;
 }
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+#contact a {
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#contact a:hover {
+  border-bottom: 1px solid #111;
+}
