@@ -149,3 +149,41 @@ nav a:hover {
   opacity: 1;
   transform: translateY(-1px);
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+}
+
+/* group icons */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+/* icons */
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  opacity: 0.75;
+  transition: 0.2s ease;
+}
+
+.icon:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
